@@ -4,7 +4,7 @@ document.getElementById('year').textContent=new Date().getFullYear();
 
 document.getElementById('contactForm').addEventListener('submit',function(e){
   e.preventDefault();
-  const email='YOUR-EMAIL@example.com'; // Replace with the official Chatak Safar email.
+  const email='swifttravelandtoursafg@gmail.com'; // Replace with the official Chatak Safar email.
   const name=document.getElementById('name').value.trim();
   const phone=document.getElementById('phone').value.trim();
   const destination=document.getElementById('destination').value.trim();
